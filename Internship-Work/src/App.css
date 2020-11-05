@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body{
+  overflow-y: hidden;
+}
+.addShadow {
+  box-shadow: 4px 4px 4px gray;
+}
+.gri {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 1.3em;
+}
+/* .mContent{
+  grid-column: 2/3;
+} */
+.listeffect {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.flxi {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .dataLists{
+  border-right: dotted gray;
+} */
+.projectGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.projectLhs {
+  grid-column: 2/3;
+}
+.projectRhs {
+  margin-top: 55px;
+}
+.buttonss {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.buttonss a {
+  color: #fff;
+  text-decoration: none;
+}
+.rhsForm {
+  display: grid;
+  place-items: center;
+}
+.A {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.B {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.hideIt {
+  visibility: hidden;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.fbutton {
+  grid-column: 3/4;
+}
+.conteiner {
+  width: 100%;
+  height: 100%;
+  /* max-width: 1100px; */
+  margin-left: -200px;
+  margin: auto;
+  margin-left: auto;
+  margin-left: 10px;
+
+  overflow: hidden;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.makeHeadingSmall {
+  font-size: 20px !important;
+}
+.DataAnalysisGrid {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  /* grid-gap:10px; */
+  text-align: left;
+}
+
+.DataVisualizationGrid {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  /* grid-gap:10px; */
+  text-align: left;
+}
+.DataVisualizationTabContainer {
+  width: 100%;
+}
+.putMarginTopOnDektop {
+  margin-top: 30px;
+}
+.reduceFontSize {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.rightBorder {
+  /* width: 80%; */
+  border-right: 4px dotted gray;
+  /* border-inline: 2px dotted green; */
+  /* box-shadow: inset 0px 0px 0px 10px red;  */
+  /* border-right:  dotted gray; */
+}
+span.MuiButton-label {
+  display: inline-block;
+  font-weight: bold !important;
+  font-size: 15px !important;
+}
+
+/* .showLinks{
+  width: 50%;
+} */
+.widenSearchBox {
+  width: 85% !important;
+  /* margin-left: 3px; */
+  margin-left: 20px !important;
+  padding: 0px 5px;
+}
+.dataListItems {
+  margin: 12px 0px;
+  width: 59%;
+  height: 36px !important;
+  width: 165px !important;
+  margin-left: 20px;
+}
+#cube-1 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+}
+#cube-2 {
+  width: 120px;
+  height: 120px;
+  background-color: yellow;
+}
+@media (max-width: 768px) {
+  .buttonss {
+    display: flex;
+    flex-direction: column;
+  }
+  .addMarginOnMobile {
+    margin-top: 20px;
+  }
+}
